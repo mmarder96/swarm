@@ -24,7 +24,7 @@ import javafx.util.Duration;
 
 /**
  * Do not change this class!
- * @author pipWolfe
+ * @author mmarder
  */
 public abstract class DrawingPane extends Application {
     static final int PANE_X_DIM = 600;

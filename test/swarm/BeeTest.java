@@ -10,8 +10,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
+ * @author mmarder
  *
- * @author pipWolfe
  */
 public class BeeTest {
     
@@ -72,8 +72,6 @@ public class BeeTest {
         // the vector should match the latest move, normalized
         assertEquals(newVec.normalize(), bee.getDirection());
     }
-
-
     
     /**
      * Test of update method, of class Bee.
@@ -123,7 +121,4 @@ public class BeeTest {
             }
         }
     }
-
-
-
 }

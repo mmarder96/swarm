@@ -6,8 +6,6 @@ package swarm;
  * and open the template in the editor.
  */
 
-
-
 import java.util.Random;
 import javafx.application.Application;
 import javafx.geometry.Point2D;
@@ -17,7 +15,7 @@ import javafx.scene.shape.Line;
 /**
  * Class representing a Swarm of Bees. The bees are drawn as lines, and update 
  * their direction and location towards a series of fixed points on the screen.
- * @author pipWolfe
+ * @author mmarder
  */
 public class Swarm extends DrawingPane {
 
